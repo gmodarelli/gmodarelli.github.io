@@ -37,7 +37,9 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:hello@gmodarelli.com'
+    display:
+      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/gmodarelli

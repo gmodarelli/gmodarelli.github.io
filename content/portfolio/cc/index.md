@@ -32,9 +32,9 @@ Together with the character artists, we came up with a way to split up our chara
 As for the various body parts, we also wanted to have a single rig to reuse the same animations for all of our characters. To that hand I've created a main rig for the initial body shape of our characters and then duplicated it so that it would adapt to the second body shape we introduced to the game.
 The two rigs shared the exact same bones hierarchy, which made it possible to retarget animations from one to the other, with minor manual tweaks.
 
-![Riggify Rigs](/static/images/cc/rigs.png)
+![Riggify Rigs](/images/cc/rigs.png)
 
-![Rig 1](/static/images/cc/rig_1.png)
+![Rig 1](/images/cc/rig_1.png)
 
 ## Blender Character Assembler
 

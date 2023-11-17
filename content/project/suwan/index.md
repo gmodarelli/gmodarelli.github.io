@@ -8,13 +8,13 @@ tags:
 external_link: ''
 
 image:
-  caption: The Wagadu Chronicles
+  caption: The Wagadu Chronicles, Twin Drums
   focal_point: Smart
 
 links:
   - icon: steam
     icon_pack: fab
-    name: Wishlist
+    name: Wishlist The Wagadu Chronicles
     url: https://store.steampowered.com/app/2464400/The_Wagadu_Chronicles/
 ---
 
@@ -31,13 +31,18 @@ Here is a video overview of how Suwan works.
 
 ## Features
 
-### Map generation and editing
+The biggest strength of Suwan is that it enables our Level Designer to never leave the editor and to be in a constant flow while working on the islands.
+Here is a list of some of the features offered by Suwan:
 
-Map are randomly generated based on a seed and some other parameters. The tool comes with a set of shapes that serve as starting point for new islands.
-The level designer is then free to modify the island shape, elevation and bodies of water by hand directly on the 2D map.
+- Map generation and editing
+- Unity Terrain generation and painting
+- Ocean and Lakes generation, with SDF-driven shores detection
+- Cliffs and ramps generation to connect different terrain elevations
+- Biomes and sub-biomes vegetation scattering
+- Gameplay resources scattering
+- NPC encounters scattering
+- Minimap generation
 
-{{< youtube PIj6x4U5PG4 >}}
+## Technical Details
 
-## Technical Details (WIP)
-
-At the heart of Suwan is a set 2D maps that our Level Designer work with in the editor to author new islands.
+(WIP)

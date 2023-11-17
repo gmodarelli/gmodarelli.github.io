@@ -12,12 +12,12 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: portfolio
-    id: projects
+    id: portfolio
     content:
-      title: Projects
+      title: Portfolio
       filters:
         folders:
-          - project
+          - portfolio
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).

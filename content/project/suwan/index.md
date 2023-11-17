@@ -1,9 +1,10 @@
 ---
-title: Suwan
+title: Procedural Islands Tool - The Wagadu Chronicles
 summary: Procedural toolset to generate islands for the Afrofantasy MMORP The Wagadu Chronicles by Twin Drums.
 tags:
   - Procedural Generation
   - Tech Art
+  - Unity
 
 external_link: ''
 
@@ -18,7 +19,7 @@ links:
     url: https://store.steampowered.com/app/2464400/The_Wagadu_Chronicles/
 ---
 
-## Introduction
+## Suwan
 
 Suwan is a set of procedural tools I have developed together with our level designer, Jennika, at [Twin Drums](https://www.twindrums.com) for the Afrofantasy MMORPG [The Wagadu Chronicles](https://store.steampowered.com/app/2464400/The_Wagadu_Chronicles/).
 The world of the game is made up of tens of islands that appear once in the game and then disappear when a new cycle (in the game's lore) begins, living space for new islands.

@@ -25,10 +25,10 @@ role: Freelance Technical Artist
 bio: Technical Artist and Graphics Programmer.
 
 # Interests to show in About widget
-interests:
-  - Graphics Programming
-  - Tech Art
-  - Videogames
+#interests:
+#  - Graphics Programming
+#  - Tech Art
+#  - Videogames
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -69,5 +69,6 @@ social:
 highlight_name: true
 ---
 
-I am a Freelance Technical Artist with 10 years of experience in the gaming industry.
+I am a Freelance Technical Artist and Graphics Programmer with almost 10 years of experience in the gaming industry.
+I am passionate about and have experience in all aspects of real-time rendering of videogames, from art asset pipelines to shader authoring, from coding custom render passes to profiling and performance optimizations.
 {style="text-align: justify;"}

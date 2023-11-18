@@ -47,13 +47,19 @@ This tool served many purposes:
 - Automatic FBX export to Unity to ensure right settings and naming conventions
 - Bulk export of all character art assets - body parts, hairstyles, clothes, accessories, rigs and animations - whenever a change to the rigs was made
 
-Here's a quick video showing the Character Assembler in Blender
+Here's a quick video showing the Character Assembler in Blender.
 
 {{< youtube kgKIwx2TQSQ >}}
 
 ## In-Engine Character Assembler
 
-WIP
+As counterpart to the Blender Character Assembler, I've built a Unity Character Assembler to validate all the assets produced for characters, not only bodies, hairstyles and clothes, but also weapons, tools and animations.
+
+This tool then also became the runtime client of the game's Character Creator. The same C# class used in the editor is also used in the shipped version of the game.
+
+Here's a quick video showing the Character Assembler in Unity.
+
+{{< youtube qnX7ROH5IzM >}}
 
 ## In-Game Character Creator
 

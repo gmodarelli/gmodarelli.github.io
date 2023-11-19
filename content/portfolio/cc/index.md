@@ -63,4 +63,6 @@ Here's a quick video showing the Character Assembler in Unity.
 
 ## In-Game Character Creator
 
-WIP
+You can see the Character Creator in action in this Early Access Trailer video
+
+{{< youtube hUWx3kuRMAM >}}

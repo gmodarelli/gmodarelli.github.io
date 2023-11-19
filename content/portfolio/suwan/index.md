@@ -6,6 +6,7 @@ tags:
   - Procedural Generation
   - Tech Art
   - Unity
+  - The Wagadu Chronicles
 
 # Date published
 date: '2023-11-16T14:00:00Z'

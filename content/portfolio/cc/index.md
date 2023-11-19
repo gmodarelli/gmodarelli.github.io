@@ -6,6 +6,7 @@ tags:
   - Tech Art
   - Unity
   - Blender
+  - The Wagadu Chronicles
 
 # Date published
 date: '2023-11-17T14:00:00Z'

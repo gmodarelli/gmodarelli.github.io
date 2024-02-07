@@ -1,5 +1,5 @@
 ---
-title: UCG - Map Editor
+title: UGC - Map Editor
 subtitle: Project Athena
 summary: A work-in-progress in-game map editor I've worked on for the cancelled FPS Project Athena by Scattershot.
 tags:

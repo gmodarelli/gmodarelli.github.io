@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Freelance Technical Artist
+role: Technical Artist
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -40,10 +40,10 @@ social:
     link: 'mailto:hello@gmodarelli.com'
     display:
       header: true
-  - icon: twitter
+  - icon: bsky
     icon_pack: fab
-    link: https://twitter.com/gmodarelli
-    label: Follow me on Twitter
+    link: https://bsky.app/profile/gmodarelli.com
+    label: Follow me on BlueSky
     display:
       header: true
   - icon: github
@@ -69,6 +69,6 @@ social:
 highlight_name: true
 ---
 
-I am a Freelance Technical Artist and Graphics Programmer with almost 10 years of experience in the gaming industry.
+I am a Technical Artist and Graphics Programmer with 10 years of experience in the gaming industry.
 I am passionate about and have experience in all aspects of real-time rendering of videogames, from art asset pipelines to shader authoring, from coding custom render passes to profiling and performance optimizations.
 {style="text-align: justify;"}

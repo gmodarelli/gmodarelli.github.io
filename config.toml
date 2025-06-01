@@ -1,0 +1,66 @@
+base_url = "https://gmodarelli.com"
+title = "Giuseppe Modarelli"
+description = "Giuseppe Modarelli - Graphics Programmer & Tech Artist"
+author = "Giuseppe Modarelli"
+theme = "tabi"
+generate_feeds = true
+compile_sass = true
+minify_html = true
+build_search_index = true
+default_language = "en"
+taxonomies = [{name = "tags", feed = true}]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+bottom_footnotes = true
+highlight_theme = "css"
+smart_punctuation = true
+
+[extra]
+
+override_serif_with_sans = true
+theme_switcher = true
+default_theme = ""
+# Skin available: blue, lavender, mint, red, sakura, teal, monochrome, lowcontrast_orange, lowcontrast_peach, lowcontrast_pink, indigo_ingot, evangelion
+skin = "blue"
+
+show_author = false
+show_reading_time = true
+show_date = true
+
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "CV", url = "uploads/Giuseppe Modarelli - Resume.pdf", trailing_slash = false },
+]
+
+socials = [
+    { name = "email", url = "mailto:hello@gmodarelli", icon = "email" },
+    { name = "github", url = "https://github.com/gmodarelli/", icon = "github" },
+    { name = "bluesky", url = "https://bsky.app/profile/gmodarelli.com", icon = "bluesky" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/gmodarelli/", icon = "linkedin" },
+]
+
+enable_csp = false
+allowed_domains = [
+    { directive = "font-src", domains = ["'self'", "data:"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'"] },
+    { directive = "frame-src", domains = ["https://www.youtube-nocookie.com"] },
+]
+
+copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+
+# This fails at the moment
+# [extra.analytics]
+# service = "goatcounter"
+# id = "gmodarelli"

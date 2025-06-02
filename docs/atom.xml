@@ -18,8 +18,18 @@
     <link href="https://gmodarelli.com/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://gmodarelli.com" rel="alternate" type="text/html"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-11-21T00:00:00+00:00</updated>
+    <updated>2025-06-02T00:00:00+00:00</updated>
     <id>https://gmodarelli.com/atom.xml</id><entry xml:lang="en">
+        <title>Descriptor Sets Management</title>
+        <published>2025-06-02T00:00:00+00:00</published>
+        <updated>2025-06-02T00:00:00+00:00</updated>
+        <author>
+            <name>Giuseppe Modarelli</name>
+        </author>
+        <link rel="alternate" href="https://gmodarelli.com/blog/tides-descriptor-sets/" type="text/html"/>
+        <id>https://gmodarelli.com/blog/tides-descriptor-sets/</id>
+        <summary type="html">How we manage descriptor sets for Tides of Revival</summary>
+        </entry><entry xml:lang="en">
         <title>UGC - Map Editor</title>
         <published>2023-11-21T00:00:00+00:00</published>
         <updated>2023-11-21T00:00:00+00:00</updated>

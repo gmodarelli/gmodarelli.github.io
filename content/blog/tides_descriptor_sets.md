@@ -109,6 +109,6 @@ for (0..zf.frames_in_flight_count) |frame_index| {
 }
 ```
 
-There is still a bit of duplication since if you rename a resource in a shader, you need to update the binding code on `zig` as well. But my plan is to use as few shaders as possbile for the game, so the need for more complex solutions (like code-gen or a more data-driven approach) is not needed just yet.
+There is still a bit of duplication since if you rename a resource in a shader, you need to update the binding code on `zig` as well. But my plan is to use as few shaders as possibile for the game, so the need for more complex solutions (like code-gen or a more data-driven approach) is not needed just yet.
 
 If you're interested in graphics programming and what to chat about the renderer of Tides of Revival, you can find me on our [Discord Server](https://discord.gg/t2SUa4ng).

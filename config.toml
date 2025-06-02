@@ -60,7 +60,6 @@ allowed_domains = [
 
 copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
 
-# This fails at the moment
-# [extra.analytics]
-# service = "goatcounter"
-# id = "gmodarelli"
+[extra.analytics]
+service = "goatcounter"
+id = "gmodarelli"

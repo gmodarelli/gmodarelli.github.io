@@ -10,12 +10,16 @@ tags = ["DirectX 12", "graphics programming", "Tides of Revival"]
 local_image = "img/tidesrpg.jpg"
 +++
 
+I'm writing the renderer for the Immersive open world RPG [Tides of Revival](https://github.com/Srekel/tides-of-revival). Here is a screenshot from the current version of the game.
+
 {{ full_width_image(src="img/tidesrpg.jpg", alt="Tides of Revival") }}
 
-The DirectX 12 renderer for [Tides of Revival](https://github.com/Srekel/tides-of-revival) relies on bindless and HLSL 6.6 Dynamic Resources for almost all GPU resources.
+In today's post I want to share my approach to GPU resource bindings.
+
+The DirectX 12 renderer for the game relies on bindless and HLSL 6.6 Dynamic Resources for almost all GPU resources.
 Still, there are some resources that need to be bound to shaders. For those, we have to use descriptors.
 
-The tides renderer is written on top of a custom fork of [The-Forge](https://github.com/gmodarelli/The-Forge/tree/ze-forge), so we didn't have to write our own management code for heaps and descriptor handles (among many other things), and could instead focus on building a GPU abstraction layer tailored to the needs of the game.
+Tides' renderer is written on top of a custom fork of [The-Forge](https://github.com/gmodarelli/The-Forge/tree/ze-forge), so we didn't have to write our own management code for heaps and descriptor handles (among many other things), and could instead focus on building a GPU abstraction layer tailored to the needs of the game.
 
 _I'll talk about why and how we use The-Forge in a future post, so stay tuned!_
 
